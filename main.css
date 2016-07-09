@@ -1,11 +1,12 @@
 body {
   overflow: hidden;
+  pointer-events: none;
+  user-select: none;
 }
 
 .image {
   position: absolute;
   width: 200px;
-  pointer-events: none;
   z-index: -100;
 }
 
