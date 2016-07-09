@@ -5,4 +5,4 @@ itsraining broadens the scope of [The Weather Girls'](https://en.wikipedia.org/w
 
 ## TODO
 - Debug sound playback (sometimes the loop will break and it just starts repeating the TTS utterance)
-- Add more rhymes! See [rhymes.js](https://github.com/okofish/itsraining/blob/gh-pages/rain.js).
+- Add more rhymes! See [rhymes.js](https://github.com/okofish/itsraining/blob/gh-pages/rhymes.js).
