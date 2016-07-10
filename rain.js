@@ -8,7 +8,7 @@ var canvas = $('#canvas'),
       setInterval(addImage, RATE);
     });
 
-var rhyme = randomRhyme();
+    var rhyme = RHYMES[Math.floor(Math.random() * RHYMES.length)];
 image.prop('src', './img/' + rhyme.file);
 var title = 'IT\'S RAINING ' + rhyme.name.toUpperCase();
 $('title').text(title);
@@ -32,8 +32,4 @@ function addImage() {
 
 function randomRange(min, max) {
   return Math.floor(Math.random() * (max - min)) + min
-}
-
-function randomRhyme() {
-  return RHYMES[Math.floor(Math.random() * RHYMES.length)]
 }
